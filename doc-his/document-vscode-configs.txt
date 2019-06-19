@@ -1,0 +1,60 @@
+
+// 需要修改的配置json
+
+{
+    "window.zoomLevel": 2,
+    "editor.parameterHints": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "workbench.editor.enablePreview": false, // 新开文件不会覆盖旧文件
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "window.restoreFullscreen": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "serach.exclude": { //
+        "system/": true,
+        "!/system/*/.ps*": true
+    },
+    "files.exclude": {
+        "**/.idea": true,
+        "**/.vscode": true,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.selectionHighlight": false,
+    "fill.associations": {
+        ".vue": "vue",
+        ".wxss": "css",
+        ".less": "css"
+    },
+    "css.lint.emptyRules": "ignore",
+    "less.lint.emptyRules": "ignore",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.panel.defaultLocation": "right",
+    "editor.fontSize": 16,
+    "editor.tabCompletion": "on",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+}

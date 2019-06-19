@@ -1,0 +1,46 @@
+
+1. Auto Close Tag – 自动闭合HTML/XML标签
+
+2. Auto Rename Tag - 自动完成另一侧标签的同步修改
+
+3. Beautify –格式化代码，值得注意的是，beautify插件支持自定义格式化代码规则，需要在自定义配置中添加
+"vetur.format.defaultFormatter.html": "js-beautify-html",
+为了覆盖
+"vetur.format.defaultFormatter.html": "none",
+
+
+4. Braket Pair Colorizer -给括号加上不同的颜色，便于区分不同的区块，使用者可以定义不同括号类型和不同颜色
+
+5. HTML CSS Support - 智能提示CSS类名以及id ，需要在自定义配置中添加
+"editor.parameterHints": true,
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+
+6. HTML Snippets - 智能提示HTML标签，以及标签含义
+
+7. JavaScript(ES6) code snippets - ES6语法智能提示，以及快速输入，不仅仅支持.js，还支持.ts，.jsx，.tsx，.html，.vue，省去了配置其支持各种包含js代码文件的时间
+8. Material Icon Theme - 个人认为最好的vscode图标主题，支持更换不同色系的图标，值得点出的是，该插件更新极其频繁，基本和vscode更新频率保持一致
+
+9. open in browser - vscode不像IDE一样能够直接在浏览器中打开html，而该插件支持快捷键与鼠标右键快速在浏览器中打开html文件，支持自定义打开指定的浏览器，包括：Firefox，Chrome，Opera，IE以及Safari
+
+10. Path Intellisense - 自动提示文件路径，支持各种快速引入文件
+
+11. Vetur - Vue多功能集成插件，包括：语法高亮，智能提示，emmet，错误提示，格式化，自动补全，debugger。vscode官方钦定Vue插件，Vue开发者必备
+
+12. VueHelper – vue的语法的提示
+
+13. Chinese – 汉化编辑器
+
+14. Rest Client – 发起http请求
+
+15. Easy Less – 自动编译less文件
+
+16. Cssrem – px自动转化为rem
+
+17. Code Runner – 代码直接运行，鼠标右键即可 run code 运行
+
+18. Vue 2 Snippets – vue代码提示
+
+19. Htmltagwrap – 添加html标签 （选中需要包裹的元素，alt + w ）
