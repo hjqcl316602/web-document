@@ -1,5 +1,4 @@
-
-# web学习清单
+# web 学习清单
 
 ## HTML
 
@@ -67,6 +66,10 @@
 
 ## node npm
 
-## phonegap react-native electron ionic 微信小程序开发(wx,mpvue,taro) APICloud Weex flutter(webAPP开发)
+## phonegap react-native electron ionic 微信小程序开发(wx,mpvue,taro) APICloud Weex flutter(webAPP 开发)
 
 ## vscode webstorm subline(开发者编辑器)
+
+## image
+
+![图片](http://p0.qhimg.com/t013f0fb9c7628798db.jpg)
