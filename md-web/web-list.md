@@ -70,6 +70,4 @@
 
 ## vscode webstorm subline(开发者编辑器)
 
-## image
 
-![图片](http://p0.qhimg.com/t013f0fb9c7628798db.jpg)
