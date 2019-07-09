@@ -157,7 +157,18 @@ new webpack.optimize.UglifyJsPlugin({
     drop_console: true
   }
 }),
-
+// 或者是
+new UglifyJsPlugin({
+      uglifyOptions: {
+        compress: {
+          warnings: false,
+          drop_debugger: true,
+          drop_console: true
+        }
+      },
+      sourceMap: config.build.productionSourceMap,
+      parallel: true
+    }),
 
 ```
 
