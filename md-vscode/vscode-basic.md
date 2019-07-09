@@ -18,6 +18,7 @@
       "comments": true,
       "strings": true
     },
+    "css.fileExtensions": ["css", "scss", "less"],
 
     // prettier 智能格式化 ， 需要安装 eslint + prettier
     "vetur.format.defaultFormatter.html": "prettier", // prettier js-beautify-html

@@ -1,5 +1,22 @@
 # webpack 优化
 
+## 不打包指定的文件，拷贝即可
+
+```js
+//build/webpack.prod.conf.js文件中
+new CopyWebpackPlugin([
+  {
+    from: path.resolve(__dirname, '../static'),
+    to: config.build.assetsSubDirectory,
+    ignore: ['.*']
+  },
+  {
+    from: './src/app.js', // 指定的文件路径
+    to: 'server.js'
+  }
+]);
+```
+
 ## 打包出现 map 文件
 
 config/index.js => build => productionSourceMap : false
