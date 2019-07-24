@@ -55,6 +55,10 @@
   "prettier.htmlWhitespaceSensitivity": "css",
   "git.confirmSync": false,
   "git.enableSmartCommit": true
+  // Path Intellisense vscode 配置import @ 路径提示及代码智提
+  "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src"
+    }
 }
 
 ```
