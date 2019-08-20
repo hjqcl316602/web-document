@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-07-24 15:05:04
- * @LastEditTime: 2019-08-17 15:08:34
+ * @LastEditTime: 2019-08-20 10:32:53
  * @LastEditors: Please set LastEditors
  -->
 
@@ -65,6 +65,11 @@ window.location.href = `alipays://platformapi/startapp?appId=20000067&url=${url}
 appId:09999988
 
 ```js
+let href =
+  'https://www.alipay.com/?appId=09999988&actionType=toCard&sourceId=bill&cardNo=6230580000028495492&bankAccount=宋现生&money=10&amount=10&bankMark=SPABANK&bankName=平安银行&orderSource= from';
+```
+
+```js
 function ready(callback) {
   if (window.AlipayJSBridge) {
     callback && callback();
@@ -88,6 +93,12 @@ ready(function() {
 ```
 
 ## 支付宝快捷转账
+
+```js
+let href = `https://ds.alipay.com/?from=mobilecodec&scheme=${encodeURIComponent(
+  'alipays://platformapi/startapp?appId=20000200&actionType=toAccount&account=13880948872&amount=10&userId=2088402641350256&memo=huang'
+)}`;
+```
 
 ```js
 let self = this;
